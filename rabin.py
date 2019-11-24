@@ -78,3 +78,12 @@ print(rabin_karp(middle_potato, lookup))
 beginning_potato = "potato in beginning, this is"
 
 print(rabin_karp(beginning_potato, lookup))
+
+#Interactive Loop
+
+input_string = ""
+input_pattern = ""
+while input_string != "quit":
+    input_string = input('string: ')
+    input_pattern = input('pattern: ')
+    print(rabin_karp(input_string, input_pattern))
